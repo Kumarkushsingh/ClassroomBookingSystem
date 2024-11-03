@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Classroom Booking System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('Images/bg_classroom.jpg');
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar h1 {
+            display: inline;
+            margin: 0;
+            color: #fff;
+        }
+
+        .navbar nav {
+            display: inline;
+            float: right;
+        }
+
+        .navbar nav a {
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0; /* Adjusted for vertical centering */
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-top: 60px; /* To push down for fixed navbar */
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin: 20px 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Classroom Booking System</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="booking.html">Book a Classroom</a>
+                <a href="view-bookings.html">View Bookings</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to the Classroom Booking System</h2>
+        <p>Book your classroom with ease and convenience.</p>
+        <a href="booking.html">Get Started</a>
+        <a href="view-bookings.html">View Your Bookings</a>
+    </div>
+</body>
+</html>
